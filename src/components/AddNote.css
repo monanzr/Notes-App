@@ -22,3 +22,11 @@
     cursor: pointer;
     background-color: #ededed;
   }
+
+  .add-note .note__footer {
+    color: #757575;
+  }
+
+  .dark-mode textarea::placeholder, .dark-mode .add-note .note__footer {
+    color: #bfbfbf;
+  }

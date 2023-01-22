@@ -36,7 +36,7 @@ const AddNote = (props) => {
     }
 
     return (
-      <div className='note'>
+      <div className='note add-note'>
         <textarea className='note__title' value={enteredTitle} onChange={titleHandler} placeholder="Add Title..."></textarea>
         <textarea className='note__text' value={enteredText} onChange={textHandler} placeholder="Add Note..."></textarea>
         <div className="note__footer">
