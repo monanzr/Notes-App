@@ -1,0 +1,17 @@
+.note-lists {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, minmax(250px, 1fr));
+}
+
+@media only screen and (max-width: 769px) {
+    .note-lists {
+        grid-template-columns: repeat(2, minmax(250px, 1fr));
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .note-lists {
+        grid-template-columns: repeat(1, minmax(250px, 1fr));
+    }
+}

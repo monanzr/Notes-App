@@ -1,0 +1,24 @@
+
+
+  textarea {
+    background: transparent;
+    border: none;
+    resize: none;
+  }
+
+  textarea:focus {
+    outline: none;
+  }
+  
+  .add-note__btn {
+    background-color: #e1e1e1;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 10px;
+    transition: all 400ms ease;
+  }
+
+  .add-note__btn:hover {
+    cursor: pointer;
+    background-color: #ededed;
+  }
