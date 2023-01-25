@@ -5,10 +5,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url(img/light-bg.jpg);
+  background-image: url(img/dark-bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  color: snow;
 }
 
 code {
@@ -23,14 +24,13 @@ code {
   padding: 0 15px;
 }
 
-.dark-mode {
-  background-color: black;
-  background-image: url(img/dark-bg.jpg);
+.light-mode {
+  background-image: url(img/light-bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.dark-mode h1 {
-  color: snow;
+.light-mode h1 {
+  color: black;
 }

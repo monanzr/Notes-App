@@ -24,9 +24,9 @@
   }
 
   .add-note .note__footer {
-    color: #757575;
+    color: #bfbfbf;
   }
 
-  .dark-mode textarea::placeholder, .dark-mode .add-note .note__footer {
-    color: #bfbfbf;
+  .light-mode textarea::placeholder, .light-mode .add-note .note__footer {
+    color: #757575;
   }

@@ -69,7 +69,7 @@ const App = () => {
   };
 
   return (
-    <div className={`${darkMode && 'dark-mode'}`}>
+    <div className={`${darkMode && 'light-mode'}`}>
       <div className="container">
         <Header onDarkMode={SetDarkMode} />
         <Search onSearchNote={setSearchText} />
