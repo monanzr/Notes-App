@@ -2,9 +2,9 @@
 
 ## Description
 
-This project is a Notes app with React and localStorage.\
+This project is a Notes app with React and localStorage.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).\
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Live Preview
 
